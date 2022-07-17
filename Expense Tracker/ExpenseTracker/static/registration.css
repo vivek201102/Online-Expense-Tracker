@@ -1,0 +1,123 @@
+body, html {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+  
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+
+    background-image: url("../static/img/123.jpg");
+  
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+  
+    height: 100%;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+.form-control{
+    fill: none;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: black;
+    width: 250px;
+}
+::placeholder{
+    color: white;
+}
+  .bg-text {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    border: 2px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+      font-family: 'Titillium Web', sans-serif;
+  
+  }
+  
+  .form-group{
+      padding: 10px;
+  font-family: 'Titillium Web', sans-serif;
+  }
+  input:focus{
+    fill: none;
+    background: transparent;
+    border: none;
+    /* border-bottom: 1px solid white; */
+    color: white;
+    width: 250px;
+  }
+  
+  .form-group label{
+      padding-right: 10px;}
+  
+  
+  .form-group placeholder{
+      font-family: 'Titillium Web', sans-serif;
+  
+  }
+  option{
+    color: black;
+    background: transparent;
+  }
+  #profession{
+      /* border-radius: 20px; */
+      font-family: 'Titillium Web', sans-serif;
+      padding: 0px;
+      background: transparent;
+      fill: none;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    width: 166.4px;
+  }
+  
+  .btn button{
+      background-color: white;
+      /* border-radius: 20px; */
+      width: 250px;
+      height: 26px;
+       font-family: 'Big Shoulders Stencil Text', cursive;
+      color: black;
+  padding-left: 15px;
+      padding-right: 15px;	
+      font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+      
+  }
+  
+  .btn button:hover{
+      /* background-color: green; */
+      /* color: white; */
+  
+   box-shadow: 1px 1px 1px 1px grey;
+  }
+  
+  a {
+      color: white;
+      text-decoration: none;
+  
+      
+  }
+  
+  a:hover{
+      color: black;
+  }
+
